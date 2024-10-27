@@ -1,0 +1,105 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+#top_menu {
+	margin: 0 auto;
+	height: 60px;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+#nav_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* position: fixed; */
+	max-width: 1140px;
+	width: 92%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	flex: 1;
+}
+
+.logo {
+	width: auto;
+	height: 20px;
+	min-width: 24px;
+}
+.logo img {
+	width: 100%;
+	height: 100%;
+}
+
+.nav_ul {
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+.nav_ul li {
+	font-size: 15px;
+	padding: 0 8px;
+	display: flex;
+	align-items: center;
+	white-space: nowrap;
+}
+.nav_ul li a {
+	padding: 12px 10px;
+	line-height: 20px;
+	border-radius: 8px;
+	border: 0;
+	cursor: pointer;
+	background-color: transparent;
+	text-align: left;
+	font-size: 15px;
+	font-weight: 300;
+}
+.nav_ul li a:hover {
+	background-color: rgba(2, 32, 71, 0.05);
+}
+
+.lang_ul {
+	display: flex;
+	align-items: center;
+}
+
+.lang_ul a {
+	padding: 12px 10px;
+	font-size: 15px;
+	line-height: 20px;
+	border-radius: 8px;
+	border: 0;
+	cursor: pointer;
+	background-color: transparent;
+	text-align: left;
+	color: #b0b8c1;
+}
+
+.lang_ul li:first-child a {
+	margin-left: 44px;
+}
+
+.lang_divider {
+	color: #b0b8c1;
+}
+
+.lang_ul li .lang_active {
+	color: #000;
+}
+
+.on {
+	background-color: #fff;
+}
+
+.arrow {
+	width: 50px;
+	height: 50px;
+}
+
+.arrow img {
+	width: 100%;
+	height: 100%;
+}

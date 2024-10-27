@@ -1,0 +1,92 @@
+#home_main {
+	background: url('https://static.toss.im/assets/homepage/newtossim/new_main.png') no-repeat 50%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#section1 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.content_wrapper {
+	margin-top: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.text_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content_wrapper .text_wrapper p {
+	white-space: pre-wrap;
+	margin: 0;
+	font-size: 66px;
+	font-weight: 800;
+	line-height: 1.4;
+}
+.content_wrapper p:last-child {
+	margin-bottom: 50px;
+}
+
+.content_wrapper a {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	display: inline-flex;
+	align-items: center;
+	padding: 11px 16px 11px 14px;
+	border-radius: 5px;
+	font-weight: 800;
+	line-height: 1.6;
+}
+.content_wrapper a:first-child {
+	margin-right: 4px;
+}
+
+.content_wrapper a:hover {
+	background-color: rgba(78, 89, 104, 0.8);
+}
+
+.content_wrapper img {
+	width: 24px;
+	height: 24px;
+}
+.arrow {
+	animation: bounce 2.5s linear infinite;
+	opacity: 0;
+	margin-bottom: 20px;
+}
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	30% {
+		transform: translateY(20px);
+		opacity: 1;
+	}
+	50% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	70% {
+		transform: translateY(20px);
+		opacity: 1;
+	}
+	90% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
